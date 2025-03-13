@@ -13,7 +13,7 @@ import utils
 
 class SixDRepNet_Detector():
 
-    def __init__(self, gpu_id : int=0, dict_path: str=''):
+    def __init__(self, gpu_id : int=-1, dict_path: str=''):
         """
         Constructs the SixDRepNet instance with all necessary attributes.
 
